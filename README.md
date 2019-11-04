@@ -1,7 +1,7 @@
 ## MemguardAES
 
-MemguardAES is AES implementation for GoLang that uses Memguard library to protect cipher key
-while encrypting/decrypting. Correct usage is:
+MemguardAES is AES implementation for GoLang that uses Memguard library to destroy key data
+after encryption/decryption. Correct usage is:
 
 ```
 mciph, err := memguardaes.Cipher(key)
